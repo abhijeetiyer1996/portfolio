@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height:650px;
+    width: 100%;
+}
+
+
+.closeBtn{
+  height:50px;
+  width:50px;
+  border:1px solid #5b5b67;
+  outline: none;
+  background:#11111d;
+  border-radius : 2px;
+  position: fixed;
+  top:5%;
+  z-index:99;
+  box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.3);
+}
+
+@media only screen and (min-height: 700px) {
+    .container{
+        height:750px;
+    }
+  }
+
+  @media only screen and (min-height: 800px) {
+    .container{
+        height:850px;
+    }
+  }
+
+  @media only screen and (min-height: 1000px) {
+    .container{
+        height:1024px;
+    }
+  }
+  @media only screen and (min-height: 1300px) {
+    .container{
+        height:1366px;
+    }
+  }
